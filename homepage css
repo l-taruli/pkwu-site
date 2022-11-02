@@ -1,2 +1,117 @@
 /* Help me lol
       */
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+:root {
+  --container-width:1000px;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+/* body is the area behind website */
+body {
+  background-color:#000000;
+  font-family:'Noto Sans';
+}
+
+
+
+#container {
+  max-width:var(--container-width);
+  border:3px  #e6eaf4;
+  margin:0 auto; /* centers */
+  background-color:#FDE9EA;
+  color:#869F77;
+  
+}
+header {
+  /* this is the header height */
+  height:200px;
+  background-color:#F1B6AC;
+  background-image:url("https://cdn.pixabay.com/photo/2014/04/07/16/51/leaves-318743_960_720.jpg")
+}
+/* navigation bar area */
+nav {
+  /* color of navigation bar */
+  background-color:#FFDDD6;
+}
+nav ul {
+  display:flex;
+  /* align nav items */
+  justify-content:space-evenly; /* come back to this */
+  margin:0;
+  
+  /* this is the spacing on the top and bottom of the nav items */
+  padding:20px;
+}
+/* nav link styling */
+/* removes bullets */
+nav ul li {
+  list-style:none;
+}
+nav ul li a {
+  color:#588061;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color:pink;
+}
+.flex {
+  display:flex;
+}
+/* sidebars */
+aside {
+  width:300px;
+  padding:10px;
+ 
+  font-size:smaller;
+}
+main {
+  padding:10px;
+  width:100%;
+  color:#588061
+}
+footer {
+  height:50px;
+  border-top:1px solid white;
+}
+
+@media only screen and (max-width: 900px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                
+                main {
+                    order: 1;
+                }
+
+                #leftSidebar {
+                    order: 2;
+                }
+
+                #rightSidebar {
+                    order: 3;
+                }
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
+.header-title{
+  padding: 70px 0;
+  font-size:70px;
+  text-align:center;
+  color:#FDE9EA
+}
+
+*/ richelle please help me omg */
