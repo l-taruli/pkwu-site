@@ -2,6 +2,12 @@
       */
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
+ #slogan{
+        background-color: #588061;
+        color: white;
+        text-align: center;
+        height: 50px;
+      }
 
 :root {
   --container-width:1000px;
