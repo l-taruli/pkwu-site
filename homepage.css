@@ -2,7 +2,7 @@
       */
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
- #slogan{
+ .slogan{
         background-color: #588061;
         color: white;
         text-align: center;
