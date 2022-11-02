@@ -9,6 +9,12 @@
         height: 50px;
       }
 
+.headline{
+        background-color:#F1B6AC;
+        color:#588061;
+        text-align: center;
+      }
+
 :root {
   --container-width:1000px;
 }
